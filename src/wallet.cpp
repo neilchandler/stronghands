@@ -1175,7 +1175,7 @@ bool CWallet::CreateTransaction(const vector<pair<CScript, int64> >& vecSend, CW
 		/* the following prevents creating a transaction where inputs accumulate over MAX_MONEY
 		 it would be useful to display an informational error message describing the situation
         */
-                if (nValueIn > ((int)nBestHeight > FORK_HEIGHT ? MAX_MONEY_2 : MAX_MONEY))
+                if (nValueIn > MAX_MONEY)
                 return error("Transaction creation failed : total inputs exceed MAX_MONEY");  
                 
                 int64 nChange = nValueIn - nValue - nFeeRet;
