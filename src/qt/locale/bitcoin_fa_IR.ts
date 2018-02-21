@@ -1259,7 +1259,7 @@ Address: %4
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
         <source>Welcome to the Stronghands RPC console.</source>
-        <translation>به کنسول آر.پی.سی. PEERCOIN خوش آمدید</translation>
+        <translation>به کنسول آر.پی.سی. Stronghands خوش آمدید</translation>
     </message>
     <message>
         <location line="+1"/>
