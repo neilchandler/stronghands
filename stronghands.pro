@@ -10,8 +10,6 @@ CONFIG += qt_framework
 QT += core gui network
 CONFIG += link_pkgconfig
 
-USE_QRCODE=1
-
 !windows:!unix {
     CONFIG += static
 }
